@@ -1,0 +1,12 @@
+{
+  "name": "ohm-law-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "欧姆定律 · 3D 交互式物理实验室（Three.js）",
+  "scripts": {
+    "serve": "python3 -m http.server 8137 --bind 127.0.0.1",
+    "check": "node --check js/physics.js && node --check js/lab.js && node --check js/main.js",
+    "test": "node test/physics.test.mjs"
+  }
+}
